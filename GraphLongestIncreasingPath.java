@@ -1,5 +1,7 @@
 class Solution {
     
+    
+    //use method of dfs and cache stratagy
     public int longestIncreasingPath(int[][] matrix) {
         int row=matrix.length;
         int column = matrix[0].length;
